@@ -47,6 +47,7 @@ body {font-family: 'Roboto', sans-serif;
     color: var(--text-color);}
 
 .header{
+    border-bottom: 1px solid var(--line-border);
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -225,6 +226,8 @@ line-height: 1.5;
         padding-bottom: 192px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)), url(../images/people-office.jpg);
         background-size: cover;
+        /* border-top: 1px solid var(--line-border); */
+        box-shadow: inset 0px 1px 6px rgba(46, 47, 66, 0.08);
         }
 
         .hero-box{
@@ -513,6 +516,7 @@ line-height: 1.5;
 
 .projects {
     border-top: 1px solid var(--line-border);
+    box-shadow: inset 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .project-filter {
